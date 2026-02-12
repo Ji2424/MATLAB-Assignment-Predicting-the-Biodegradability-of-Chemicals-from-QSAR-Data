@@ -1,5 +1,5 @@
-Predicting Chemical Biodegradability Using QSAR Data
-Overview
+# Predicting Chemical Biodegradability Using QSAR Data
+
 
 This project builds and compares machine learning classification models to predict whether a chemical compound is biodegradable based on molecular descriptors.
 
@@ -8,7 +8,7 @@ The dataset used is the QSAR Biodegradation dataset from the UCI Machine Learnin
 
 
 
-Data Processing:
+# Data Processing:
 
 -Checked for missing and infinite values
 
@@ -29,7 +29,7 @@ Data Processing:
 
 
 
-Models Implemented:
+# Models Implemented:
 
 1) Logistic Regression
 
@@ -42,7 +42,7 @@ All models were trained on normalized training data and evaluated on a separate 
 
 
 
-Model Performance:
+# Model Performance:
 
 Logistic Regression:
 
@@ -74,7 +74,7 @@ Naive Bayes:
 
 
 
-Key Conclusion
+# Key Conclusion
 
 Logistic regression is recommended for this dataset. It achieved high predictive performance while maintaining interpretability, which is important for environmental and regulatory decision-making.
 
